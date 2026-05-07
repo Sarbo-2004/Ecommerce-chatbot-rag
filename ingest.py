@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
  
 load_dotenv()
 
-walmart_csv_loader = CSVLoader(r"D:\OneDrive - Coforge Limited\Desktop\LLMOPS\E-commerce\data\shein-products.csv",encoding="utf-8")
+walmart_csv_loader = CSVLoader(r"E-commerce\data\walmart-products.csv",encoding="utf-8")
 walmart_csv_docs = walmart_csv_loader.load()
 
 final_medical_docs = walmart_csv_docs
