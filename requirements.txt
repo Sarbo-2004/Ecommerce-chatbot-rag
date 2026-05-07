@@ -1,0 +1,8 @@
+streamlit 
+faiss-cpu
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core ==0.3.84
+python-dotenv ==1.1.1
+pypdf==6.10.0
+langchain-google-genai==2.0.7
